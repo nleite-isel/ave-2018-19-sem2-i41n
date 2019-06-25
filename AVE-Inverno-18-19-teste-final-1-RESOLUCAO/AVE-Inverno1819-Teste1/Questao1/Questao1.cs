@@ -30,9 +30,11 @@ Matriz:
 (d) F
 
 */
+    struct V { }
+
     public class Questao1
     {
-        struct V {}
+        //struct V {}
 
         public static void Main()
         {
@@ -45,7 +47,7 @@ Matriz:
             //Program.Print(10);
             //Program.Print(new Questao1());
             //Program.Print<object>(null);
-            Program.Print<Nullable<int>>(null);
+            //Program.Print<Nullable<int>>(null);
 
             //C c = new C();
 
@@ -64,8 +66,12 @@ Matriz:
             //Console.WriteLine(obj);
 
             //
-            // VER EXEMPLO boxVT.il + boxVT.exe para exemplo de box 1-(a)
+            // VER EXEMPLO na diretoria "IL code" para exemplo de box 1-(c)
             //
+            V v = new V();
+            Console.WriteLine(v.ToString());
+
+
         }
     }
 
