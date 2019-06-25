@@ -62,6 +62,10 @@ Matriz:
             //del2(new Derived()); // OK
 
             //Console.WriteLine(obj);
+
+            //
+            // VER EXEMPLO boxVT.il + boxVT.exe para exemplo de box 1-(a)
+            //
         }
     }
 
